@@ -41,8 +41,11 @@ TODO
 ## Numerical experiments
 
 To reproduce the numerical experiments presented in this article, you need 
-to install [Julia](https://julialang.org/). Then, you need to start Julia
-in this directory and execute the following commands in the REPL
+to install [Julia](https://julialang.org/). The numerical experiments presented 
+in this article were performed using Julia v1.8.3.
+
+Then, you need to start Julia in this directory and execute the following commands
+in the REPL
 
 ```julia
 import Pkg; Pkg.activate("."); Pkg.instantiate(); import Pluto; Pluto.run()
@@ -54,7 +57,14 @@ You can combine this with starting Julia from the command line as follows:
 julia -e 'import Pkg; Pkg.activate("."); Pkg.instantiate(); import Pluto; Pluto.run()'
 ```
 
-The numerical experiments presented in this article were performed using Julia v1.8.3.
+Then, the web server of [Pluto.jl](https://github.com/fonsp/Pluto.jl) should start
+and open a browser window for you. There, you need to select the file `notebook.jl`.
+Then, Pluto.jl should load the file and you should start to see some text. The
+setup will take up to several minutes since Julia needs to install all dependencies
+and execute the code. When everything is finished, the notebook is ready for interactive
+use and exploration. In particular, you will be able to change several parameters
+interactively and Julia will make sure that everything is sufficiently fast to be
+updated on the fly.
 
 
 ## Authors
