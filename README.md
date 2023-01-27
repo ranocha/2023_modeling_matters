@@ -66,6 +66,8 @@ use and exploration. In particular, you will be able to change several parameter
 interactively and Julia will make sure that everything is sufficiently fast to be
 updated on the fly.
 
+A static preview is also available [online](https://ranocha.de/2022_modeling_matters/).
+
 
 ## Authors
 
