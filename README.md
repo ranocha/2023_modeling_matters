@@ -44,6 +44,9 @@ To reproduce the numerical experiments presented in this article, you need
 to install [Julia](https://julialang.org/). The numerical experiments presented 
 in this article were performed using Julia v1.8.3.
 
+First, you need to download this repository, e.g., by cloning it with `git`
+or by downloading an archive via the GitHub interface.
+
 Then, you need to start Julia in this directory and execute the following commands
 in the REPL
 
