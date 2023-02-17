@@ -87,7 +87,7 @@ and so on.
 
 # ╔═╡ 087ceabc-9217-4355-8399-6d6630012890
 md"""
-The components seem to converge to a steady state at first but
+The genotype proportions $q_i$ seem to converge to a steady state at first but
 suddenly start to go to zero quite fast between $t = 30$ and
 $t = 40$ --- although the sum of all components should be conserved 
 (equal to one) for all times.
@@ -521,9 +521,9 @@ end
 # ╔═╡ f9c0e157-cee9-418c-9c9e-65c9df6157cf
 plot_3d_kwargs = let
 	fontsizes = (
-		xtickfontsize = 10, ytickfontsize = 10, ztickfontsize = 10,
-		xguidefontsize = 12, yguidefontsize = 12, zguidefontsize = 12,
-		legendfontsize = 12)
+		xtickfontsize = 9, ytickfontsize = 9, ztickfontsize = 9,
+		xguidefontsize = 11, yguidefontsize = 11, zguidefontsize = 11,
+		legendfontsize = 11)
 	(; linewidth = 5, gridlinewidth = 3, fontsizes...)
 end
 
@@ -566,7 +566,7 @@ end
 # ╔═╡ caec4b21-9448-4390-a9e1-f59f77dcb019
 function plot_single_sol(sol)
 	t = range(sol.prob.tspan..., length = 200)
-	fig = plot(; xguide = "Time t", yguide = "Quantities qᵢ")
+	fig = plot(; xguide = "Time t", yguide = "Genotype proportions qᵢ")
 	plot!(fig, t, sol.(t, idxs = 1); label = "q₁", linestyle = :solid, plot_kwargs...)
 	plot!(fig, t, sol.(t, idxs = 2); label = "q₂", linestyle = :dash, plot_kwargs...)
 	if length(sol.u[1]) > 2
@@ -855,7 +855,7 @@ let
 		println("all states are unstable")
 	end
 	scatter!(fig, [0], [0], [0]; label="stable", plot_3d_kwargs...)
-	plot!(fig, camera = (45, 50))
+	plot!(fig, camera = (55, 10), legend = :right, bottom_margin = -10 * Plots.mm)
 	global fig_system3_original_steadystates = fig
 end
 
