@@ -1,0 +1,18 @@
+{
+    "license": "MIT",
+    "title": "Reproducibility repository for Modeling still matters: a surprising instance of catastrophic floating point errors in mathematical biology and numerical methods for ODEs",
+    "upload_type": "software",
+    "creators": [
+        {
+            "affiliation": "Institute for Partial Differential Equations, TU Braunschweig, Germany",
+            "name": "Reisch, Cordula",
+            "orcid": "0000-0003-1442-1474"
+        },
+        {
+            "affiliation": "Applied Mathematics, University of Hamburg, Germany",
+            "name": "Ranocha, Hendrik",
+            "orcid": "0000-0002-3456-2277"
+        }
+    ],
+    "access_right": "open"
+}
