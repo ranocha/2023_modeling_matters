@@ -1,7 +1,7 @@
 # Modeling still matters: a surprising instance of catastrophic floating point errors in mathematical biology and numerical methods for ODEs
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/TODO.svg)](https://doi.org/TODO)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7801250.svg)](https://doi.org/10.5281/zenodo.7801250)
 
 This repository contains information and code to reproduce the results presented in the
 article
@@ -27,9 +27,9 @@ use the implementations provided here, please **also** cite this repository as
          point errors in mathematical biology and numerical methods for {ODEs}},
   author={Reisch, Cordula and Ranocha, Hendrik},
   year={2023},
-  month={TODO},
-  howpublished={\url{https://github.com/ranocha/2022\_modeling\_matters}},
-  doi={TODO}
+  month={04},
+  howpublished={\url{https://github.com/ranocha/2023\_modeling\_matters}},
+  doi={10.5281/zenodo.7801250}
 }
 ```
 
