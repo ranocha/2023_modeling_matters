@@ -14,7 +14,8 @@ article
   month={04},
   eprint={2304.02365},
   eprinttype={arxiv},
-  eprintclass={math.HO}
+  eprintclass={math.HO},
+  doi={10.48550/arXiv.2304.02365}
 }
 ```
 
