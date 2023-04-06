@@ -11,10 +11,10 @@ article
          point errors in mathematical biology and numerical methods for {ODEs}},
   author={Reisch, Cordula and Ranocha, Hendrik},
   year={2023},
-  month={TODO},
-  eprint={TODO},
+  month={04},
+  eprint={2304.02365},
   eprinttype={arxiv},
-  eprintclass={TODO}
+  eprintclass={math.HO}
 }
 ```
 
