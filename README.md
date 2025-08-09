@@ -6,16 +6,21 @@
 This repository contains information and code to reproduce the results presented in the
 article
 ```bibtex
-@online{reisch2023modeling,
-  title={Modeling still matters: a surprising instance of catastrophic floating 
-         point errors in mathematical biology and numerical methods for {ODEs}},
+@article{reisch2025modeling,
+  title={Modeling Still Matters: A Surprising Instance of Catastrophic
+         Floating Point Errors in Mathematical Biology and Numerical
+         Methods for {ODEs}},
   author={Reisch, Cordula and Ranocha, Hendrik},
-  year={2023},
-  month={04},
+  journal={SIAM Review},
+  volume={67},
+  number={3},
+  pages={624--641},
+  year={2025},
+  month={08},
+  doi={10.1137/23M1563967},
   eprint={2304.02365},
   eprinttype={arxiv},
-  eprintclass={math.HO},
-  doi={10.48550/arXiv.2304.02365}
+  eprintclass={math.HO}
 }
 ```
 
